@@ -25,9 +25,13 @@ h2 {
     border-bottom: 5px solid #0f920f;
 }
 
+figure img {
+    width: 75%;
+}
 footer{
     padding: 20px 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-around;
     background-color: #2f4f4f;
@@ -37,7 +41,7 @@ footer{
 footer address, footer p, footer a {
     color: #eee;
     text-decoration: none;
-    margin: 0;
+    margin: 0 0 20px 0;
     font-size: .9rem;
     font-style: normal;
 }
