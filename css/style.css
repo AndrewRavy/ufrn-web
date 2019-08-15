@@ -8,9 +8,6 @@ main{
     width: 70%;
     margin: 0 auto;
 }
-p, ul {
-    font-size: .9em;
-}
 p{
     text-align: justify;
 }
@@ -41,5 +38,6 @@ footer address, footer p, footer a {
     color: #eee;
     text-decoration: none;
     margin: 0;
-    font-size: .9em;
+    font-size: .9rem;
+    font-style: normal;
 }
